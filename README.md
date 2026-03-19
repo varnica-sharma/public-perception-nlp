@@ -83,6 +83,7 @@ user_agent = "YOUR_USER_AGENT"
 
 - **Varnica Sharma** — M.Sc. Data Science, Manipal Academy of Higher Education
 - **Aman Tripathi** — M.Sc. Data Science, Manipal Academy of Higher Education
+- **K.M. Kavitha** - Assistant Professor, Manipal Academy of Higher Education
 
 ---
 
@@ -91,6 +92,6 @@ user_agent = "YOUR_USER_AGENT"
 If you use this work, please cite:
 
 ```
-V. Sharma, A. Tripathi, and K.M. Kavitha, "Benchmarking Machine Learning Techniques 
+Varnica Sharma, Aman Tripathi and K.M. Kavitha, "Benchmarking Machine Learning Techniques 
 in Under-Resourced Contexts," IEEE CIEES 2025.
 ```
