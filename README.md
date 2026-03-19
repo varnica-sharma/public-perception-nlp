@@ -13,6 +13,19 @@ Understanding how citizens perceive government policies is critical for effectiv
 
 ---
 
+## Data
+
+The dataset consists of ~1,196 comments scraped from Reddit (r/bangalore, 
+r/karnataka, r/mysore) and YouTube using the PRAW API and YouTube Data API.
+
+Due to platform Terms of Service, the raw data is not publicly shared. 
+To reproduce the dataset, run the scraping cells in the notebook with 
+your own API credentials.
+
+For research inquiries, contact: varnicasharma1515@gmail.com
+
+---
+
 ## Methodology
 
 ### Data Collection
