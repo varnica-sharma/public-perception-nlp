@@ -2,7 +2,7 @@
 
 A comparative study of Machine Learning and Deep Learning techniques for sentiment analysis and thematic clustering of public discourse on government policies in South Karnataka, India.
 
-> 📄 Published at **IEEE CIEES 2025** — *Benchmarking Machine Learning Techniques in Under-Resourced Contexts: Analysis of Public Perceptions of Government Policies from South Karnataka Reddit Discourse*
+> 📄 Published at **IEEE CIEES 2025** — *Benchmarking Machine Learning Techniques in Under-Resourced Contexts: Analysis of Public Perceptions of Government Policies from South Karnataka Reddit Discourse*  
 > [View on IEEE Xplore](https://ieeexplore.ieee.org/document/11300080)
 
 ---
@@ -25,21 +25,23 @@ Understanding how citizens perceive government policies is critical for effectiv
 
 ### Emotion Classification
 Trained and evaluated multiple models on 735 labelled comments:
+
 | Model | Accuracy |
 |-------|----------|
-| SVM (best) | 41.5% |
-| DistilBERT | 40.4% |
-| Random Forest | — |
-| Decision Tree | — |
-| Naive Bayes | — |
-| KNN | — |
+| SVM | 41.5% |
+| DistilBERT (validated on human labels) | 40.4% |
+| Decision Tree | 36% |
+| Naive Bayes | 35% |
+| Random Forest | 33% |
+| KNN | 23% |
 
 ### Thematic Clustering
 Compared two approaches on 1,196 comments:
-| Method | Result |
-|--------|--------|
-| K-Means (TF-IDF) | 94.6% cluster coherence |
-| BERTopic (semantic embeddings) | Richer but overlapping topics |
+
+| Method | Cluster Coherence (SVM Accuracy) |
+|--------|----------------------------------|
+| K-Means (TF-IDF) | 94.6% |
+| BERTopic (semantic embeddings) | 52.5% |
 
 ---
 
@@ -65,3 +67,30 @@ Compared two approaches on 1,196 comments:
 git clone https://github.com/your-username/public-perception-nlp.git
 cd public-perception-nlp
 pip install -r requirements.txt
+```
+
+Add your Reddit API credentials in the notebook:
+
+```python
+client_id = "YOUR_CLIENT_ID"
+client_secret = "YOUR_CLIENT_SECRET"
+user_agent = "YOUR_USER_AGENT"
+```
+
+---
+
+## Authors
+
+- **Varnica Sharma** — M.Sc. Data Science, Manipal Academy of Higher Education
+- **Aman Tripathi** — M.Sc. Data Science, Manipal Academy of Higher Education
+
+---
+
+## Citation
+
+If you use this work, please cite:
+
+```
+V. Sharma, A. Tripathi, and K.M. Kavitha, "Benchmarking Machine Learning Techniques 
+in Under-Resourced Contexts," IEEE CIEES 2025.
+```
