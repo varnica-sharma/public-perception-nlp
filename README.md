@@ -83,7 +83,7 @@ user_agent = "YOUR_USER_AGENT"
 
 - **Varnica Sharma** — M.Sc. Data Science, Manipal Academy of Higher Education
 - **Aman Tripathi** — M.Sc. Data Science, Manipal Academy of Higher Education
-- **K.M. Kavitha** - Assistant Professor, Manipal Academy of Higher Education
+- **K.M. Kavitha** — Assistant Professor, Manipal Academy of Higher Education
 
 ---
 
