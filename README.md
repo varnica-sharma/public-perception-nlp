@@ -29,8 +29,12 @@ For research inquiries, contact: varnicasharma1515@gmail.com
 ## Methodology
 
 ### Data Collection
-- Scraped ~1,196 comments from Reddit subreddits (r/bangalore, r/karnataka, r/mysore) using PRAW API
-- Focused on public health and regional government policy discussions
+- Scraped ~735 comments from Reddit subreddits (r/bangalore, r/karnataka, r/mysore) 
+  using **PRAW API** focused on regional government policy discussions
+- Scraped ~461 comments from **YouTube** videos focused on public health policies 
+  using YouTube Data API
+- Combined both sources for an expanded dataset of **~1,196 comments** used for 
+  thematic clustering
 
 ### Preprocessing
 - Text cleaning using **spaCy** and **NLTK** (tokenization, lemmatization, stopword removal, regex cleaning)
